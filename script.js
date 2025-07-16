@@ -82,6 +82,25 @@ function setFlag(idx) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
+  // Tabbed card interface
+  const tabs = document.querySelectorAll('.tab');
+  const cards = document.querySelectorAll('.card');
+  tabs.forEach(tab => {
+    tab.addEventListener('click', function() {
+      const cardClass = tab.getAttribute('data-card');
+      cards.forEach(card => {
+        if (card.classList.contains(cardClass)) {
+          card.style.display = 'block';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+      tabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+    });
+  });
+  // Set first tab as active
+  if (tabs.length) tabs[0].classList.add('active');
   const flagEl = document.getElementById('flag-rotator');
   if (flagEl) {
     flagEl.addEventListener('click', function(e) {
