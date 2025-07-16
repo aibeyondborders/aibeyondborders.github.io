@@ -1,0 +1,18 @@
+# Minimal Jekyll configuration for GitHub Pages
+# https://jekyllrb.com/docs/configuration/
+
+# Site settings
+title: "AI Beyond Borders"
+description: "Minimal Jekyll landing page for www.aibeyondborders.org"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.aibeyondborders.org" # the base hostname & protocol for your site
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude these files from the generated site
+exclude:
+  - README.md
+  - site.md
