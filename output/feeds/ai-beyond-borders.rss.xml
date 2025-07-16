@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI Beyond Borders - AI Beyond Borders</title><link>/</link><description/><atom:link href="/feeds/ai-beyond-borders.rss.xml" rel="self"/><lastBuildDate>Sat, 08 Jun 2024 00:00:00 +0000</lastBuildDate><item><title>Hello, World!</title><link>/hello-world.html</link><description>&lt;h1&gt;Hello, World!&lt;/h1&gt;
-&lt;p&gt;Welcome to AI Beyond Borders.&lt;/p&gt;
-&lt;p&gt;This is a minimal Pelican landing page.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">AI Beyond Borders</dc:creator><pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate><guid>tag:None,2024-06-08:/hello-world.html</guid><category>Landing</category></item></channel></rss>

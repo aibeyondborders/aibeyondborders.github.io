@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>AI Beyond Borders - Landing</title><link href="/" rel="alternate"/><link href="/feeds/landing.atom.xml" rel="self"/><id>/</id><updated>2024-06-08T00:00:00+00:00</updated><entry><title>Hello, World!</title><link href="/hello-world.html" rel="alternate"/><published>2024-06-08T00:00:00+00:00</published><updated>2024-06-08T00:00:00+00:00</updated><author><name>AI Beyond Borders</name></author><id>tag:None,2024-06-08:/hello-world.html</id><content type="html">&lt;h1&gt;Hello, World!&lt;/h1&gt;
-&lt;p&gt;Welcome to AI Beyond Borders.&lt;/p&gt;
-&lt;p&gt;This is a minimal Pelican landing page.&lt;/p&gt;</content><category term="Landing"/></entry></feed>
